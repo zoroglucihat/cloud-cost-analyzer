@@ -1,0 +1,81 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env
+.venv
+
+# Azure kimlik bilgileri
+*.publishsettings
+*azureauth.json
+.azure/
+azureProfile.json
+AzureRmContext.json
+
+# IDE ve editör klasörleri
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+.vs/
+
+# Rapor çıktıları ve kaynak analizi sonuçları
+reports/
+*.html
+*.csv
+*.xlsx
+*.json
+
+# Loglar
+*.log
+logs/
+
+# Diğer özel dosyalar
+credentials.json
+config.ini
+*secret*
+*password*
+*token*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory 
